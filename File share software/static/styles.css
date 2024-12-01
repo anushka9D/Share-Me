@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+.container {
+    width: 60%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #0056b3;
+}
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+form input[type="submit"]:hover {
+    background-color: #218838;
+}
+.file-list {
+    margin-top: 20px;
+}
+.file-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.file-list li {
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.file-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+.file-list a:hover {
+    text-decoration: underline;
+}
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.delete-btn:hover {
+    background-color: #c82333;
+}
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+.alert.danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Style for custom file input */
+.file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 200px;
+}
+.file-input-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.file-input-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+.file-input-btn:hover {
+    background-color: #0056b3;
+}
